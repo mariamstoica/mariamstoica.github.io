@@ -96,3 +96,85 @@
 #header .cv-button:hover {
 	background-color: rgba(255, 255, 255, 0.3);
 }
+
+/* CV: single column, styled like the Publications list */
+#resume .row > * {
+	width: 100%;
+	margin-left: 0;
+}
+
+#resume .resume-title {
+	font-size: 1.6em;
+	margin: 1.5em 0 1em 0;
+	padding-bottom: 0.3em;
+	border-bottom: 2px solid #f1e9f7;
+}
+
+#resume .row > *:first-child .resume-title {
+	margin-top: 0;
+}
+
+#resume .resume-item {
+	display: flex;
+	flex-direction: column;
+	border-left: 0;
+	padding: 0;
+	margin: 0 0 2em 0;
+}
+
+#resume .resume-item::before {
+	display: none;
+}
+
+#resume .resume-item h4 {
+	line-height: 1.4;
+	font-size: 1.25em;
+	font-weight: 700;
+	margin-bottom: 0.4em;
+}
+
+#resume .resume-item h5 {
+	order: 2;
+	font-size: 0.8em;
+	font-weight: 400;
+	letter-spacing: 0.03em;
+	color: #999;
+	background: none;
+	padding: 0;
+	margin-bottom: 0.4em;
+}
+
+#resume .resume-item p {
+	order: 1;
+	margin-bottom: 0.2em;
+}
+
+/* Organisation stands out more than the dates */
+#resume .resume-item p em {
+	font-style: normal;
+	font-weight: 700;
+	color: #6a4a82;
+}
+
+#resume .resume-item h4 {
+	order: 0;
+}
+
+#resume .resume-item ul {
+	order: 3;
+}
+
+#resume .resume-item ul {
+	margin: 0.3em 0 0 0;
+	padding-left: 1.2em;
+}
+
+#resume .resume-item ul li {
+	padding: 0;
+	margin-bottom: 0.2em;
+	line-height: 1.6;
+}
+
+#resume .resume-item ul li::marker {
+	color: #B38FCB;
+}
