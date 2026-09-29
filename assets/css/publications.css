@@ -1,0 +1,87 @@
+/* Publications list */
+#publications .resume-item {
+	margin-bottom: 2em;
+}
+
+#publications .resume-item h4 {
+	margin-bottom: 0.4em;
+}
+
+#publications .resume-item h5 {
+	display: inline-block;
+	font-size: 0.75em;
+	font-weight: 600;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #6a4a82;
+	background: #f1e9f7;
+	border: 1px solid #d9c4e6;
+	border-radius: 999px;
+	padding: 0.15em 0.8em;
+	margin-bottom: 0.6em;
+}
+
+#publications .resume-item p {
+	margin-bottom: 0.3em;
+}
+
+#publications .authors strong {
+	font-weight: 700;
+}
+
+#publications .pub-links {
+	margin: 0.4em 0 0 0;
+}
+
+#publications .pub-links a,
+#publications .bibtex summary {
+	display: inline-block;
+	font-size: 0.75em;
+	font-weight: 600;
+	line-height: 1.6;
+	padding: 0.1em 0.7em;
+	margin: 0 0.4em 0.4em 0;
+	border: 1px solid #B38FCB;
+	border-radius: 4px;
+	color: #6a4a82;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#publications .pub-links a:hover,
+#publications .bibtex summary:hover {
+	background: #B38FCB;
+	color: #fff;
+}
+
+#publications .bibtex {
+	display: inline;
+}
+
+#publications .bibtex[open] {
+	display: block;
+}
+
+#publications .bibtex summary {
+	list-style: none;
+}
+
+#publications .bibtex summary::-webkit-details-marker {
+	display: none;
+}
+
+#publications .bibtex[open] summary {
+	background: #B38FCB;
+	color: #fff;
+}
+
+#publications .bibtex pre {
+	font-size: 0.7em;
+	line-height: 1.5;
+	white-space: pre-wrap;
+	word-break: break-word;
+	background: #f7f5f9;
+	border-left: 3px solid #B38FCB;
+	padding: 0.8em 1em;
+	margin: 0.4em 0 0 0;
+}
