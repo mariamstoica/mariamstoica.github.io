@@ -96,10 +96,3 @@
 #header .cv-button:hover {
 	background-color: rgba(255, 255, 255, 0.3);
 }
-
-/* One-line research summary under the About heading */
-#about .research-interests {
-	font-size: 1.1em;
-	border-left: 3px solid #B38FCB;
-	padding-left: 1em;
-}
